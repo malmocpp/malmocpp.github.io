@@ -1,0 +1,20 @@
+---
+title: "Meeting 0xB - Open Source Show and Tell"
+date: 2019-05-29T21:51:51+02:00
+---
+
+Open Source software is at the core of what makes the world go around, and we use many in our day to day lives, we might have made some ourselves.
+
+Join us in a Show and Tell of our favorite C/C++ libraries.
+
+### AGENDA
+
+|               |              |
+|---------------|--------------|
+| 17:30 – 17:45 | Meet & Greet |
+| 17:45 – 18:30 | Presentation |
+| 18:30 – 19:00 | Meet & eat   |
+| 19:00 – 20:00 | Q&A          |
+
+You can submit an Open Source C/C++ library for the show and tell here, it can be any library you like, does not have to be one that you wrote:
+https://docs.google.com/forms/d/e/1FAIpQLSfDmvABglgQ6D3vjH6Ekej5omJucBGLPWPvjft1gsJpbfW_jA/viewform

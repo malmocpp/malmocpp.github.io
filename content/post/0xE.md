@@ -1,0 +1,14 @@
+---
+title: "Meeting 0xE - The C++ algorithm header"
+date: 2019-09-24T21:52:00+02:00
+---
+The algorithm header is full of wonderful tools that are highly useful. Let’s go over some of them and play around with examples of these functions. You can bring your own laptop but it’s not required at all.
+
+### AGENDA
+
+|               |              |
+|---------------|--------------|
+| 17:30 – 17:45 | Meet & Greet |
+| 17:45 – 18:30 | Presentation |
+| 18:30 – 19:00 | Meet & eat   |
+| 19:00 – 20:00 | Q&A          |

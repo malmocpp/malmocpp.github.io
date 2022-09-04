@@ -1,0 +1,20 @@
+---
+title: "Meeting 0xC - Test Driven Development"
+date: 2019-06-12T21:51:53+02:00
+---
+
+With the help of the audience, a kata will be coded using TDD. Also we discuss what it is and why you should start doing it.
+
+Presentation is suitable for all skill-levels.
+
+
+### AGENDA
+
+|               |              |
+|---------------|--------------|
+| 17:30 – 17:45 | Meet & Greet |
+| 17:45 – 18:30 | Kata         |
+| 18:30 – 19:00 | Meet & eat   |
+| 19:00 –       | Discussion   |
+
+Presented by Sven Rademakers. XP enthusiast, more than six years of experience as a programmer, currently working for Massive Entertainment.

@@ -1,0 +1,19 @@
+---
+title: "Meeting 0xF - Effortless debugging of C++ code"
+date: 2019-10-31T21:47:25+02:00
+---
+
+Many of the bugs in the code that we write falls into categories of bugs that are in principle easy to detect. Examples includes use of uninitialised variables or out-of-bounds memory access. We also know from experience that some coding habits often result in bugs and should for this reason be avoided. E.g. use of “new/delete” and pointer arithmetic.
+
+Luckily for us, there exists plenty of tools for helping us find these kinds of bugs and this talk will cover the use of some of them. Tools discussed will include G++, clang, CppCheck, clang-tidy, sanitisers and Valgrind. Usage examples as well as common bugs found by these tools will be shown.
+
+Speaker: Jonas Nilsson works as a software developer for the European Spallation Source where he writes software for use in physics experiments. His free time is spent on not finishing various software and hardware projects.
+
+### AGENDA
+
+|               |              |
+|---------------|--------------|
+| 17:30 – 17:45 | Meet & Greet |
+| 17:45 – 18:30 | Presentation |
+| 18:30 – 19:00 | Meet & eat   |
+| 19:00 – 20:00 | Q&A          |

@@ -1,0 +1,22 @@
+---
+title: "Meeting 0xA - Are Lambdas Magic? / Game Habitat"
+date: 2019-04-25T21:51:49+02:00
+---
+
+
+The Malmö C++ User Group is doing a short field trip. We are going to Game Habitat.
+
+Game Habitat is a community focused non profit organisation based in Malmö. Their mission is to turn southern Sweden into the best possible environment for everything and everyone related to game development.
+
+Scheduled talk: Are Lambdas Magic? by Olafur Waage
+
+Lambdas were introduced to the language in C++11, but how do they work? How can you use them? How are they implemented and can you make your own?
+
+### AGENDA
+
+|               |              |
+|---------------|--------------|
+| 17:30 – 17:45 | Meet & Greet |
+| 17:45 – 18:30 | "Are Lambdas Magic?" |
+| 18:30 – 19:00 | Meet & eat   |
+| 19:00 –  | Mingle and deep thoughtful conversations!  |
