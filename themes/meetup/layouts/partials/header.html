@@ -1,0 +1,10 @@
+<div id="header">
+    <img src="{{.Site.Params.home_image}}" id="logo">
+    <h1 id="title">{{ .Site.Title }}</h1>
+    <div id="social">
+        {{range .Site.Params.Social}}
+            <a href="{{.Href}}" class="social"><i class="fa {{.fa_icon}}" aria-hidden="true"></i></a>
+        {{end}}
+    </div>
+</div>
+<hr>

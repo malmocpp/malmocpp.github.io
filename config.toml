@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Malmö C++ User Group'
-theme = 'devise'
+theme = 'meetup'
 
 [params]
   recent_posts = 100

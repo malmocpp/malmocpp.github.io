@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+{{ $all_posts := where .Site.Pages "Section" "post" }}
+{{ $posts := where $all_posts "RelPermalink" "!=" "/post/" }}
+{{ range $posts.ByPublishDate.Reverse}}
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+    {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+    <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+    <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+{{ end }}
+
+{{ end }}

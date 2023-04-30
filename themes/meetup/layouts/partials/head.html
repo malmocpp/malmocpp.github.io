@@ -1,0 +1,67 @@
+<head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" /> -->
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    
+    {{ $title := print .Title " | " .Site.Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    
+    <title>{{ $title }}</title>
+    <meta property="og:title" content="{{ $title }}">
+
+    <!-- twitter  -->
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ template "_internal/opengraph.html" . }}
+
+    <style>
+        a.button {
+            border-radius: 5px;
+            padding: 5px 10px;
+            background-color: var(--button-base);
+            color: var(--text-bright);
+        }
+
+        a.button:hover {
+            background-color: var(--button-hover);
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        time { background-color: var(--background-body); }
+        
+        div#header {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-template-rows: auto auto;
+        }
+        header {
+            padding-bottom: 20px;
+        }
+        img#logo {
+            display: inline;
+            max-width: 150px;
+            max-height: 150px;
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 2;
+            padding-right: 20px;
+        }
+        h1#title {
+            margin-bottom: 0px;
+            grid-column: 2 / span 1;
+            grid-row: 1 / span 1;
+        }
+        div#social {
+            grid-column: 2 / span 1;
+            grid-row: 2 / span 1;
+        }
+        a.social {
+            font-size: larger;
+            margin: 3px;
+        }
+    </style>
+</head>
