@@ -5,7 +5,7 @@ date: {{ .Date }}
 
 description thing
 
-### AGENDA
+### Agenda
 
 |               |              |
 |---------------|--------------|
